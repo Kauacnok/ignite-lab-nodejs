@@ -9,6 +9,9 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true
