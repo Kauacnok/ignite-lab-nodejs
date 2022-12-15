@@ -12,8 +12,15 @@
     "strict": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "baseUrl": "./",
     "incremental": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+        "@application/*": ["./src/application/*"],
+        "@helpers/*": ["./src/helpers/*"],
+        "@infra/*": ["./src/infra/*"],
+        "@test/*": ["./test/*"]
+    }
   }
 }
