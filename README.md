@@ -1,73 +1,41 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+<p align='center'> 
+	<h1 align='center'>Ignite Lab - Node JS</h1>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 🧪 Tecnologias
 
-## Description
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Backend
+- [Node]
+- [Nest]
+- [Jest]
+- [Class transform/Class validator]
+- [Typescript]
+- [Prisma]
 
-## Installation
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo
 
 ```bash
-$ npm install
-```
+$ git clone https://github.com/Kauacnok/ignite-lab-nodejs.git
 
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
+$ npm i (para instalar as dependências)
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## 💻 Projeto
+Esse projeto foi desenvolvido no evento da Rocketseat (chamado de Ignite Lab - Node js) com a ideia de se aprofundar em um framework que está se tornando popular entre os devs no ambiente do node js, o nest js. a ideia do projeto é desenvolver um sistema de notificações no backend fazer o envio para os usuários, o usuário marcar como lido/não lido e o numero de notificações que o usuário
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
+## 📖 O que eu aprendi
 
-# test coverage
-$ npm run test:cov
-```
+Nesse projeto aprendi a como criar um projeto que não depende de coisas externas como uma API ou banco de dados para dar uma manuntenção (um dos princípios do SOLID que é a inversão de dependências), aprendi um pouco sobre o design de software e também um pouco sobre Microfrontend, também aprendi a testar as aplicações usando o Jest, gostaria de aplicar esses conceitos num futuro projeto para fixar ainda mais o conhecimento aprendido no evento.
 
-## Support
+![Exemplo de Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## 📝 License
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Kauacnok/ignite-lab-nodejs/blob/main/license) para mais detalhes.
